@@ -1,0 +1,77 @@
+.mainConteiner {
+  width: 500px;
+  height: 300px;
+  margin: 60px;
+  
+}
+
+/* Slider container */
+.sliderConteiner {
+  position: relative;
+  height: 100%;
+  z-index: 8888; 
+}
+.conteinerImages {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid #3d2c2c;
+  overflow: hidden;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dotsConteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.dotItem {
+  margin: 8px 3px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+}
+
+div.active {
+  background: #dfbaba;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+
+@media (max-width: 480px) {
+  .mainConteiner {
+    width: 390px;
+    height: 200px;
+    margin: 10px;
+    
+  }
+
+  
+
+}
