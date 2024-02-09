@@ -30,10 +30,20 @@ body {
     font-size: 20px;
     
   }
-
+.txt{
+  color: #ff008c;
+}
   
   @media (max-width: 480px){
     .portada{
         width: 300px;
     }
+
+    .button{
+      top: 20%;
+    }
+    .txt{
+      margin-top: 20%;
+    }
+
   }

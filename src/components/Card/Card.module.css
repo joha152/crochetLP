@@ -15,3 +15,11 @@
     grid-template-columns: repeat(3, 1fr); 
     margin: 40px;
   }
+
+  @media (max-width: 480px) {
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+  }

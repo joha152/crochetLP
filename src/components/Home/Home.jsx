@@ -25,7 +25,7 @@ const Home = ()=> {
 
 
 
-<h1>Mira nuestros productos</h1>
+<h1 className={style.txt}>Mira nuestros productos</h1>
 <Card/>
 
         <h1>Contacto</h1>
